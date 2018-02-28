@@ -1,0 +1,21 @@
+[{
+    "T_BUSI_DZKCTR": {
+        "SF" : [
+            {"F_ID":"1","F_YEAR":"","F_SBDW":"","F_KIND":"按省","F_NAME":"北京","F_ORDER":""},
+            {"F_ID":"2","F_YEAR":"","F_SBDW":"","F_KIND":"按省","F_NAME":"天津","F_ORDER":""},
+            {"F_ID":"3","F_YEAR":"","F_SBDW":"","F_KIND":"按省","F_NAME":"河北","F_ORDER":""},
+            {"F_ID":"4","F_YEAR":"","F_SBDW":"","F_KIND":"按省","F_NAME":"山西","F_ORDER":""},
+            {"F_ID":"5","F_YEAR":"","F_SBDW":"","F_KIND":"按省","F_NAME":"内蒙","F_ORDER":""},
+            {"F_ID":"6","F_YEAR":"","F_SBDW":"","F_KIND":"按省","F_NAME":"辽宁","F_ORDER":""},
+            {"F_ID":"7","F_YEAR":"","F_SBDW":"","F_KIND":"按省","F_NAME":"吉林","F_ORDER":""},
+            {"F_ID":"8","F_YEAR":"","F_SBDW":"","F_KIND":"按省","F_NAME":"黑龙","F_ORDER":""},
+            {"F_ID":"9","F_YEAR":"","F_SBDW":"","F_KIND":"按省","F_NAME":"上海","F_ORDER":""},
+            {"F_ID":"1","F_YEAR":"","F_SBDW":"","F_KIND":"按省","F_NAME":"江苏","F_ORDER":""},
+            {"F_ID":"1","F_YEAR":"","F_SBDW":"","F_KIND":"按省","F_NAME":"浙江","F_ORDER":""},
+            {"F_ID":"2","F_YEAR":"","F_SBDW":"","F_KIND":"按省","F_NAME":"安徽","F_ORDER":""},
+            {"F_ID":"3","F_YEAR":"","F_SBDW":"","F_KIND":"按省","F_NAME":"福建","F_ORDER":""},
+            {"F_ID":"4","F_YEAR":"","F_SBDW":"","F_KIND":"按省","F_NAME":"江西","F_ORDER":""},
+            {"F_ID":"5","F_YEAR":"","F_SBDW":"","F_KIND":"按省","F_NAME":"山东","F_ORDER":""}
+        ]
+    }
+}]

@@ -1,0 +1,52 @@
+{
+  "name": "irs_client",
+  "version": "1.0.1",
+  "description": "信息报送客户端",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "start-dev": "electron . --debug",
+    "dev": "webpack-dev-server --inline --colors --hot --quiet",
+    "build": "set NODE_ENV=production && webpack --watch --progress --hide-modules",
+    "build-dev": "set NODE_ENV=development && webpack --watch --progress --hide-modules",
+    "pack-mac": "electron-packager . --asar --asar-unpack=protocol-link.html --overwrite --platform=darwin --arch=x64 --icon=assets/app-icon/mac/app.icns --prune=true --out=out --osx-sign.identity='Developer ID Application: GitHub' --extend-info=assets/mac/info.plist",
+    "pack-win": "electron-packager . 信息报送客户端 --asar --asar-unpack=protocol-link.html --overwrite --platform=win32 --arch=ia32 --icon=assets/images/app-icon/win/app.ico --prune=true --out=out --version-string.CompanyName='石大正信' --version-string.FileDescription='信息报送客户端' --version-string.ProductName=信息报送客户端",
+    "pack-win-64": "electron-packager . 信息报送客户端 --asar --asar-unpack=protocol-link.html --overwrite --platform=win32 --arch=x64 --icon=assets/images/app-icon/win/app.ico --prune=true --out=out --version-string.CompanyName='石大正信' --version-string.FileDescription='信息报送客户端' --version-string.ProductName=信息报送客户端",
+    "pack-linux": "electron-packager . --asar --asar-unpack=protocol-link.html --overwrite --platform=linux --arch=x64 --icon=assets/app-icon/png/64.png --prune=true --out=out",
+    "pack-win-cnpm": "set NODE_ENV=production && cnpm run pack-win",
+    "pack-win-cnpm-64": "set NODE_ENV=production && cnpm run pack-win-64"
+  },
+  "author": "SDZX",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-runtime": "^6.12.0",
+    "babel-preset-es2015": "^6.13.2",
+    "css-loader": "^0.23.1",
+    "electron-packager": "^7.5.1",
+    "electron-prebuilt": "^1.3.2",
+    "eslint": "^3.2.2",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "file-loader": "^0.9.0",
+    "grunt": "^1.0.1",
+    "grunt-electron-installer": "^2.1.0",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "vue-hot-reload-api": "^1.2.0",
+    "vue-html-loader": "^1.2.3",
+    "vue-loader": "^8.5.3",
+    "vue-style-loader": "^1.0.0",
+    "webpack": "^1.13.1",
+    "webpack-dev-server": "^1.14.1"
+  },
+  "dependencies": {
+    "node-xlsx": "^0.7.1",
+    "node-zip": "^1.1.1",
+    "sqlite3": "^3.1.4",
+    "vue": "^1.0.26",
+    "vue-router": "^0.7.13",
+    "xml2js": "^0.4.17"
+  }
+}
